@@ -1,0 +1,34 @@
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 75vh; /* Set a fixed height for the section (adjust as needed) */
+  overflow: hidden;
+}
+
+.hero-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill; 
+  aspect-ratio: 23 / 9;  /*Maintain aspect ratio */
+}
+
+/* Dots style */
+.slick-dots {
+  bottom: 20px; /* Position at the bottom of the section */
+}
+
+.slick-dots li button:before {
+  font-size: 14px;
+  color: white;
+  opacity: 0.7;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white;
+  opacity: 1;
+}
