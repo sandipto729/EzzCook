@@ -5,5 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: './',
   plugins: [react()],
+  build: {
+    cssCodeSplit: true, // Prevents Vite from merging CSS files into one
+  },
 });
-
